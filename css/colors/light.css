@@ -22,7 +22,7 @@
 }
 
 .content {
-	background-color: #efefef;
+	background-color: #161925;
 	color: #000000;
 }
 
@@ -32,8 +32,6 @@
 .section-about .title-info,
 .section-about .title-links,
 .section-about .li-social-links a,
-.section-skills,
-.section-skills .title-progress span,
 .section-education .ul-education,
 .section-experience .icon-experience,
 .section-experience .company-name,
@@ -48,6 +46,11 @@
 .single-blog blockquote,
 .single-blog .archive li {
 	color: #757575;
+}
+
+.section-skills,
+.section-skills .title-progress span {
+	color: #161925;
 }
 
 .section-about h2 span,

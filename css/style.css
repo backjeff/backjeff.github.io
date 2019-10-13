@@ -43,6 +43,7 @@ ul {
 
 .section {
 	margin-bottom: 75px;
+	border-radius: 10px;
 }
 
 .section-about,
@@ -108,7 +109,7 @@ ul {
 
 .section h2,
 .section-about .download-resume {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .section p {
@@ -310,7 +311,7 @@ ul {
 		}
 
 	.theme-option .color1 span {
-		background-color: #0487cc;
+		background-color: #161825;
 	}
 
 		.theme-option .color1 i {
@@ -408,17 +409,18 @@ ul {
 }
 
 	.section-about .profile {
-		padding: 33px 33px 22px;
+		padding: 33px;
 	}
 
 		.section-about .photo-profile {
-			margin-bottom: 20px;
+			
 		}
 
 			.section-about .photo-profile img {
 				display: block;
 				width: 100%;
 				box-shadow: 0 0 5px rgba(0,0,0,.4);
+				border-radius: 10px;
 			}
 
 	.section-about .download-resume {
@@ -550,6 +552,10 @@ ul {
 		margin-right: 5px;
 	}
 
+	.other-skills{
+		padding: 20px;
+	}
+
 /****  5-3 - EDUCATION ****/
 
 .section-education {
@@ -559,6 +565,7 @@ ul {
 .section-education .education-content {
 	margin-bottom: 30px;
 	padding: 30px;
+	border-radius: 10px;
 }
 
 	.section-education h3 {
@@ -1045,7 +1052,7 @@ ul {
 		margin-bottom: 22px;
 		margin-left: 14px;
 		padding: 15px;
-		border-left: 6px solid #0487cc;
+		border-left: 6px solid #161825;
 	}
 
 	.single-blog .blog-detail {

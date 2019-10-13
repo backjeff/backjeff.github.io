@@ -1,13 +1,10 @@
 
-/****  C0LOR1 #0487cc ****/
+/****  C0LOR1 #161925 ****/
 
 .loading-overlay .spinner > div,
 .section-about .li-social-links a:hover,
 .section-skills h3,
 .section-skills .progress-bar,
-.section-education h3,
-.section-experience .experience-content::before,
-.section-experience .period-experience,
 .section-portfolio .filter-portfolio li.active,
 .section-pricing div[class^="col-"]:nth-child(2) .pricing-price,
 .section-pricing div[class^="col-"]:nth-child(2) .pricing-buy,
@@ -25,10 +22,23 @@
 .single-blog .comments .reply,
 .single-blog .leave-comment input[type="submit"],
 .single-blog .tags li a {
-	background-color: #0487cc;
+	background-color: #161925;
 }
 
-.section h2,
+.section-experience .period-experience,
+.section-experience .experience-content::before, 
+.section-education h3 {
+	background: #333;
+}
+
+.name {
+	color: #161925 !important;
+}
+
+.section h2 {
+	color: #fafafa;
+}
+
 .section-about .available i,
 .section-skills .other-skills i,
 .section-experience .specialty-name,
@@ -42,32 +52,32 @@
 .single-blog .populaire-posts h3,
 .single-blog .tags h3,
 .single-blog .archive h3 {
-	color: #0487cc;
+	color: #161925;
 }
 
 .section-about .li-social-links a:hover {
-	border-color: #0487cc;
-	box-shadow: 0 0 3px #0487cc;
+	border-color: #161925;
+	box-shadow: 0 0 3px #161925;
 }
 
 .section-education h3::before {
-	border-top-color: #035c8a;
-	border-right-color: #035c8a;
+	border-top-color: #222;
+	border-right-color: #222;
 }
 
 .section-contact-us input:focus,
 .section-contact-us textarea:focus,
 .single-blog .leave-comment input:focus,
 .single-blog .leave-comment textarea:focus {
-	border-bottom-color: #0487cc;
+	border-bottom-color: #161925;
 }
 
 .theme-option,
 .theme-option .open-theme {
-	border: 2px solid #0487cc;
+	border: 2px solid #161925;
 	border-right: none;
 }
 
 .single-blog blockquote {
-	border-left: 6px solid #0487cc;
+	border-left: 6px solid #161925;
 }
